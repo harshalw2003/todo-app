@@ -1,0 +1,162 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.container{
+
+    border: 2px solid #20316f ;
+    border-radius: 10px;
+    width: 90vw;
+    height: 70vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.heading{
+
+    color: #23558e;
+    text-decoration: underline;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.sub-cont{
+
+    display: flex;
+    /* border: 2px solid #23558e; */
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+#form{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: fit-content;
+    margin: 30px;
+    /* border: 2px solid black; */
+    padding: 15px;
+    box-shadow: 1px 1px 1px 2px  rgb(178, 178, 178);
+    border-radius: 10px;
+    
+
+
+}
+
+#form label{
+
+    margin: 10px 0px 5px 0px;
+}
+
+#form input, #form select{
+
+    width: 400px;
+    height: 30px;
+}
+
+#Submit-btn{
+
+    width:120px;
+    padding: 5px;
+    color: white;
+    background-color: #23558e;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: none;
+
+    
+}
+
+.right{
+
+    width: 100%;
+    height: fit-content;
+    display: flex;
+
+
+}
+
+.table{
+
+    width: 100%;
+    /* border: 2px solid red; */
+    padding: 20px;
+
+
+
+}
+
+.table  table{
+
+    width: 100%;
+}
+
+#t-head{
+
+    background-color: #23558e;
+    /* border: 2px solid red; */
+    width: 100%;
+}
+
+.row td{
+
+    width: 20%;
+    /* display: flex; */
+    text-align: center;
+    padding: 5px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+    font-weight: lighter;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+}
+
+.row > td{
+
+    width: 50%;
+}
+
+.row > td + td{
+
+    width: 25%;
+}
+
+tbody .row td{
+
+    color: black;
+    
+}
+
+
+#t-body >:nth-child(even){
+
+    background-color: rgb(214, 214, 214);
+    
+
+
+
+
+}
+
+
+
+
